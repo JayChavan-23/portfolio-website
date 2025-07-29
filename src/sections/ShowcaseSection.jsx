@@ -22,7 +22,13 @@ export const ShowcaseSection = () => {
     );
 
     // Animations for each app showcase
-    const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
+    const cards = [
+      rydeRef.current,
+      libraryRef.current,
+      ycDirectoryRef.current,
+      extraCard1Ref.current,
+      extraCard2Ref.current,
+    ];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -84,28 +90,34 @@ export const ShowcaseSection = () => {
             </div>
           </div>
         </div>
-        <div className="second-container w-100%  space-x-10 flex justify-center mt-8">
-        <div className="thirdcard">
-        <div className="image-wrapper bg-[#FFEFDB] rounded-xl">
-                <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
-                />
-              </div>
-              <h2>The Library Management Platform</h2>
+        <div className="second-container flex flex-col sm:flex-row justify-center gap-[106px] mt-8">
+          <div
+            ref={extraCard1Ref}
+            className="thirdcard justify-items-center justify-center"
+          >
+            <div className="image-wrapper justify-center justify-items-center bg-[#dbebff] rounded-xl">
+              <img
+                width="65%"
+                src="/images/project2.png"
+                alt="Library Management Platform"
+              />
+            </div>
+            <h2>The Library Management Platform</h2>
+          </div>
 
-        </div>
-        <div className="fouthcard">
-        <div className="image-wrapper bg-[#FFEFDB] rounded-xl">
-                <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
-                />
-              </div>
-              <h2>The Library Management Platform</h2>
-
-        </div>
-
+          <div
+            ref={extraCard2Ref}
+            className="fouthcard justify-center justify-items-center"
+          >
+            <div className="image-wrapper justify-center justify-items-center bg-[#cef6ca] rounded-xl">
+              <img
+                width="65%"
+                src="/images/project2.png"
+                alt="Library Management Platform"
+              />
+            </div>
+            <h2>The Library Management Platform</h2>
+          </div>
         </div>
       </div>
     </div>
