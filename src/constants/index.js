@@ -152,52 +152,55 @@ const navLinks = [
   
   const expCards = [
     {
-      review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      review: "The Commonwealth Bank Tech Explorer program provided invaluable insight into the tech roles within the banking industry. The hands-on tasks, especially the iOS widget development, were practical and significantly enhanced my understanding of software engineering.",
       imgPath: "/images/exp1.png",
       logoPath: "/images/logo1.png",
-      title: "Frontend Developer",
-      date: "January 2023 - Present",
+      title: "Commonwealth Bank Tech Explorer Program",
+      date: "Date of Completion (e.g., July 2025)",
       responsibilities: [
-        "Developed and maintained user-facing features for the Hostinger website.",
-        "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-        "Optimized web applications for maximum speed and scalability.",
-      ],
+        "Engaged in a self-paced job simulation covering software engineering, tech analysis, cybersecurity, and data science.",
+        "Completed a practical task on building an iOS widget, focusing on iOS development processes and banking app design.",
+        "Developed skills in creative planning, design thinking, teamwork, communication, critical thinking, and problem-solving.",
+        "Earned a certificate of completion, enhancing resume and LinkedIn profile for future applications."
+      ]
     },
     {
-      review: "Adrians contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      review: "As an AI Research Assistant at the Australian Institute of Machine Learning, I investigated methodologies to enhance Large Language Models' reasoning abilities through in-context learning, conducting research under the guidance of Professor Lingqiao Liu. This role improved my understanding of current Artifical Intelligence research and practical application.",
       imgPath: "/images/exp2.png",
       logoPath: "/images/logo2.png",
-      title: "Full Stack Developer",
-      date: "June 2020 - December 2023",
+      title: "AI Research Assistant",
+      date: "Mar 2025 - Nov 2025",
       responsibilities: [
-        "Led the development of Docker's web applications, focusing on scalability.",
-        "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-        "Contributed to open-source projects that were used with the Docker ecosystem.",
-      ],
+        "Investigated methodologies for enhancing Large Language Models' (LLMs) reasoning abilities through in-context learning.",
+        "Conducted research under the guidance of Professor Lingqiao Liu.",
+        "Gained hands-on experience in advanced machine learning research and experimental design.",
+        "Applied theoretical knowledge to practical challenges in LLM development."
+      ]
     },
     {
-      review: "Adrians work on Appwrites mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      review: "At Coles Supermarket, I provided essential front desk support, adeptly resolving customer queries in a fast-paced retail setting and managing complex transactions with professionalism. My role involved logging customer incidents and coordinating effectively with various store teams.",
       imgPath: "/images/exp3.png",
       logoPath: "/images/logo3.png",
-      title: "React Native Developer",
-      date: "March 2019 - May 2020",
+      title: "Customer Service Assistant",
+      date: "March 2024 - Present",
       responsibilities: [
-        "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-        "Improved app performance and user experience through code optimization and testing.",
-        "Coordinated with the product team to implement features based on feedback.",
-      ],
+        "Provided front desk support, resolving customer queries in a fast-paced retail environment.",
+        "Logged customer incidents and coordinated with store teams.",
+        "Managed returns, complaints, and service desk transactions with professionalism and care."
+      ]
     },
     {
-      review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-      imgPath: "/images/exp1.png",
-      logoPath: "/images/logo1.png",
-      title: "backEnd Developer",
-      date: "January 2023 - Present",
+      review: "As a Lead Designer Intern at Mama Drones, I played a pivotal role in designing a user-friendly and visually appealing interface for an Agri-tech bot, conducting extensive on-field research and data collection. My efforts led to a significant increase in app downloads and I also contributed to the design of the official company website.",
+      imgPath: "/images/exp4.png",
+      logoPath: "/images/logo4.png",
+      title: "Lead Designer Intern",
+      date: "May 2023 – July 2023",
       responsibilities: [
-        "Developed and maintained user-facing features for the Hostinger website.",
-        "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-        "Optimized web applications for maximum speed and scalability.",
-      ],
+        "Lead designer intern at Mama Drones, a startup focused on creating an Agri-tech bot for Farmer’s Assistant[cite: 25].",
+        "Overcame the primary challenge of designing a user-friendly yet visually appealing interface for farmers[cite: 26].",
+        "Conducted extensive on-field research, data collection, and created a user-centric app design, resulting in a significant increase in app downloads[cite: 27].",
+        "Played a key role in designing Mama Drone's official website[cite: 28]."
+      ]
     },
   ];
   
